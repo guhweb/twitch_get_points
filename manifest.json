@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "twitch_get_points",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": ["https://www.twitch.tv/*"],
+        "js": ["core.js"]
+      }
+    ]
+}
